@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genmitra - Public Service Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0077b6;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      animation: fadeDown 1s ease-in-out;
+    }
+
+    nav {
+      background: #023e8a;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 30px;
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      color: #0077b6;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @keyframes fadeDown {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Genmitra</h1>
+    <p>Your Public Service Assistant for India</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#founder">Founder</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section class="section" id="services">
+      <h2>Services We Offer</h2>
+      <ul>
+        <li>✅ Aadhaar & PAN Linking Assistance</li>
+        <li>✅ EPF Withdrawal Help</li>
+        <li>✅ Income Tax Guidance</li>
+        <li>✅ Document Corrections (PAN, Aadhaar, Voter ID, etc.)</li>
+        <li>✅ Govt. Schemes Information</li>
+      </ul>
+    </section>
+
+    <section class="section" id="founder">
+      <h2>About the Founder</h2>
+      <p><strong>Vishnu Vardhan Singh</strong>, a passionate entrepreneur from Hyderabad, founded Genmitra to make government services simple and accessible for every Indian. With deep understanding of real-world problems and tech-savviness, he is committed to digital empowerment in rural and urban India.</p>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Us</h2>
+      <p>📧 Email: support@genmitra.in</p>
+      <p>📱 WhatsApp: +91-XXXXXXXXXX</p>
+      <p>📍 Serving All Over India 🇮🇳</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Genmitra. All rights reserved. | Made with ❤️ in India</p>
+  </footer>
+</body>
+</html>
